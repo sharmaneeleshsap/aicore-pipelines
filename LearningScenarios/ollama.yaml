@@ -9,7 +9,7 @@ metadata:
     executables.ai.sap.com/name: "ollama"
   labels:
     scenarios.ai.sap.com/id: "ollama"
-    ai.sap.com/version: "0.0.1014"
+    ai.sap.com/version: "0.0.10141"
 spec:
   template:
     apiVersion: "serving.kserve.io/v1beta1"
@@ -28,7 +28,7 @@ spec:
         maxReplicas: 1
         containers:
         - name: kserve-container
-          image: docker.io/userplayswithdocker/ollama:ai-core
+          image: userplayswithdocker/ollama:ai-core
           ports:
             - containerPort: 8080
               protocol: TCP
