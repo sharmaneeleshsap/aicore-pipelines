@@ -1,15 +1,15 @@
 apiVersion: ai.sap.com/v1alpha1
 kind: ServingTemplate
 metadata:
-  name: ollama
+  name: ollama-october
   annotations:
     scenarios.ai.sap.com/description: "Run a ollama server on SAP AI Core"
-    scenarios.ai.sap.com/name: "ollama"
+    scenarios.ai.sap.com/name: "ollama-october"
     executables.ai.sap.com/description: "ollama service"
-    executables.ai.sap.com/name: "ollama"
+    executables.ai.sap.com/name: "ollama-october"
   labels:
-    scenarios.ai.sap.com/id: "ollama"
-    ai.sap.com/version: "0.0.10141"
+    scenarios.ai.sap.com/id: "ollama-october"
+    ai.sap.com/version: "0.0.10142"
 spec:
   template:
     apiVersion: "serving.kserve.io/v1beta1"
