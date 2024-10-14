@@ -9,7 +9,7 @@ metadata:
     executables.ai.sap.com/name: "ollama"
   labels:
     scenarios.ai.sap.com/id: "ollama"
-    ai.sap.com/version: "0.0.1"
+    ai.sap.com/version: "0.0.1014"
 spec:
   template:
     apiVersion: "serving.kserve.io/v1beta1"
